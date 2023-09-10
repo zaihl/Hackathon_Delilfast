@@ -1,0 +1,247 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-size: contain;
+    background-color: #1a1a1d;
+}
+
+.outer {
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10vh 40vh;
+    gap: 10px;
+    padding: 20px;
+}
+
+.main {
+    justify-self: center;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    grid-column: span 7;
+    border-radius: 5px;
+    margin: 3vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f0ffff;
+    font-weight: bold;
+}
+
+.inner {
+    background-color: #333;
+    margin: 1px 0 9px 0;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+ }
+
+.inner:hover {
+    animation-name: scaling;
+    animation-duration: 1s;
+}
+
+.nested {
+    height: 100%;
+    background-color: aqua;
+    grid-row: 2;
+}
+
+@keyframes scaling {
+    50%{transform: scale(1.05)}
+}
+ /*   jgipjsfgpjgjfipagj  */
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+}
+
+header > div {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+}
+
+
+.right {
+   height: 10vh;
+    display: grid;
+    grid-template-columns: 0.75fr 2fr 1.25fr;
+    overflow: hidden;
+ }
+
+.two, .three {
+    justify-self: center;
+    align-self: center;
+ }
+
+ .two {
+    display: flex;
+ }
+
+.two > form {
+    transform: scale(2);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .two > form > input {
+    display: inline;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0;
+    border-radius: 3px 0 0 3px;
+    color: #333;
+ }
+
+
+ .two > form > button {
+    transform: translate(-4px, -0.4px);
+    border: 1px solid #1a1a1d;
+    background-color: #1a1a1d;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: silver;
+    border-radius: 0 3px 3px 0;
+    padding: 0 8px;
+ }
+
+ .two > form > input::placeholder {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: rgba(116, 116, 116, 0.8);
+ }
+
+ input:focus {
+    outline: none;
+ }
+
+ .two > form > button >  a {
+    text-decoration: none;
+    color: silver;
+ }
+
+ .one {
+    align-self: center;
+    margin: 0 0 0 30px;
+ }
+
+ .one > i {
+    transform: scale(2.5);
+    color: #1a1a1d;
+    cursor: pointer;
+ }
+
+ .three {
+    width: 40vh;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ }
+
+ .login, .signup {
+    border-radius: 3px;
+    color: azure;
+    background-color: #1a1a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .login p {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .signup p {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ .nested {
+   display: grid;
+   grid-template-columns: 3fr 1.5fr 1fr;
+   grid-template-rows: 1.2fr 1fr;
+   overflow: hidden;
+ }
+ .pname {
+   text-align: center;
+   grid-row: 1;
+   grid-column: span 2;
+   overflow: hidden;
+ }
+ .pprice {
+   text-align: center;
+   grid-row: 2;
+   grid-column: span 2;
+   overflow: hidden;
+   transform: translateY(3px);
+ }
+ .pcart {
+   font-size: 2em;
+   align-self: center;
+   text-align: center;
+   grid-row: span 2;
+   overflow: hidden;
+ }
+
+ a {
+   text-decoration: none;
+   color: #1a1a1d;
+ }
+
+ a i:hover {
+   color: azure;
+ }
+
+ header a {
+   color: azure;
+   text-decoration: none;
+ }
+
+ button:hover {
+   cursor: pointer;
+ }
+
+header > div {
+   overflow: hidden;
+}
+
+.left {
+   overflow: hidden;
+   width: 10vw;
+   height: 10vh;
+}
+
+.left img {
+   padding: 3px;
+   object-fit: contain;
+}
+
+ 
+
+
+
+
