@@ -42,7 +42,7 @@ To get started with Hackathon_Delilfast, please follow these steps:
 
 2. **Installation:** Follow the installation instructions provided in the project's documentation to set up the platform.
 
-3. **Usage:** Refer to the documentation for guidance on how to use the platform effectively.
+3. **Usage:** **Currently the website is in alpha phase and has limited capabilites. In the limited preview of website, you can access the login page, three products: logitech mouse, fashion#3 and pharmacy#4, and lastly the cart.**
 
 ## Contribution
 
