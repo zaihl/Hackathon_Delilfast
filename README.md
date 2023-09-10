@@ -8,7 +8,7 @@ Hackathon_Delilfast is a platform that aims to revolutionize the delivery indust
 
 ## Problem Statement
 
-In today's fast-paced world, timely product delivery is crucial for customer satisfaction. However, many customers face delays in receiving their orders, especially in remote areas, due to limited delivery partner options. Traditional systems, like eKart for Flipkart, often lead to delayed deliveries.
+In today's fast-paced world, timely product delivery is crucial for customer satisfaction. However, many customers face delays in receiving their orders, especially in remote areas, due to limited delivery partner options. Traditional systems, like eKart for Flipkart, often lead to limited possibilities.
 
 ## Solution
 
