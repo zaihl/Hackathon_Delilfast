@@ -1,4 +1,4 @@
-# Hackathon_Delilfast
+# Hackathon_Delifast
 
 Welcome to the Hackathon_Delilfast project repository! 
 
